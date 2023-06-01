@@ -1,0 +1,23 @@
+  262  mkdir Actividades
+  263  cd Actividades
+  264  mkdir "Deportes de equipo" "Deportes acuaticos" "Deportes extemos" "Deportes de mesa" "Deportes mentales"
+  265  cd Deportes\ de\ equipo/
+  266  touch Basquet
+  267  cd ..
+  268  cd Deportes\ mentales/
+  269  touch Ajedrez.txt
+  270  cd ..
+  271  cd Deportes\ de\ mesa/
+  272  touch "Ping pong"
+  273  ls -R
+  274  cd ..
+  275  ls -R
+  276  rm -r "Deportes extemos"
+  277  pwd
+  278  git init
+  279  git add .
+  280 git commit -m "commit inicial examen"
+  281  git remote add origin https://github.com/Digital-House-CTD/RepasoExamen-Introduccion.git
+  282  git push origin main
+  283  touch comandos.txt
+  284  history> comandos.txt
